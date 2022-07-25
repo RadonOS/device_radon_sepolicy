@@ -33,8 +33,3 @@ endif
 
 # Selectively include legacy rules defined by the products
 -include device/radon/sepolicy/legacy-common/sepolicy.mk
-
-# Include atv rules on atv product
-ifeq ($(PRODUCT_IS_ATV), true)
-include device/lineage/sepolicy/atv/sepolicy.mk
-endif
